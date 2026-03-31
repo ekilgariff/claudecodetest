@@ -8,13 +8,18 @@ Open any `.html` file directly in a browser — no build step, server, or depend
 
 ## Git workflow
 
-After every meaningful change: commit with a clean message and push to origin/main.
+**After every meaningful change, commit and push immediately.** Never leave work uncommitted. This ensures we always have a saved state on GitHub and can revert to any point.
 
 ```bash
 git add <changed-files>
 git commit -m "descriptive message"
 git push
 ```
+
+Commit message rules:
+- Use a short imperative subject line (e.g. `Add power-up system to shooter`)
+- Be specific — describe what changed and why, not just "update file"
+- Always include the Co-Authored-By trailer for Claude commits
 
 Remote: https://github.com/ekilgariff/claudecodetest
 
